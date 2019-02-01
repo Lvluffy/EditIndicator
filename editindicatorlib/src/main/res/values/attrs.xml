@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditIndicatorView">
+        <attr name="editText" format="string" />
+        <attr name="editColor" format="color" />
+        <attr name="editSize" format="integer" />
+        <attr name="editCursorDrawable" format="reference" />
+        <attr name="editLineSpacingExtra" format="dimension" />
+        <attr name="editHint" format="string" />
+        <attr name="editHintColor" format="color" />
+        <attr name="editPaddingTop" format="dimension" />
+        <attr name="editPaddingBottom" format="dimension" />
+        <attr name="editPaddingLeft" format="dimension" />
+        <attr name="editPaddingRight" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="integer" />
+        <attr name="textMax" format="integer" />
+        <attr name="textType" format="enum">
+            <enum name="hidden" value="1" />
+            <enum name="diminish" value="2" />
+            <enum name="percent" value="3" />
+        </attr>
+        <attr name="textPaddingTop" format="dimension" />
+        <attr name="textPaddingBottom" format="dimension" />
+        <attr name="textPaddingLeft" format="dimension" />
+        <attr name="textPaddingRight" format="dimension" />
+        <attr name="textGravity" format="enum">
+            <enum name="left" value="1" />
+            <enum name="center" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

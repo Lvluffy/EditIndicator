@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        /**gradle*/
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        /**github*/
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    /**SDK And Tools（SDK和工具）*/
+    //用于编译的SDK版本
+    compileSdkVersion = 27
+    //用于Gradle编译项目的工具版本
+    buildToolsVersion = "27.0.2"
+    //应用ID
+    applicationId = "com.luffy.editindicator"
+    //最低支持Android版本
+    minSdkVersion = 15
+    //目标版本
+    targetSdkVersion = 27
+    //应用程序版本号
+    versionCode = 100
+    //应用程序版本名称
+    versionName = "1.0.10"
+    /**Dependencies（依赖关系）*/
+    supportVersion = "27.0.2"
+}

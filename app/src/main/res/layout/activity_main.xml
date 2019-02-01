@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.luffy.editindicatorlib.EditIndicatorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f6f6"
+        app:editColor="#333333"
+        app:editHint="@string/app_name"
+        app:editHintColor="#666666"
+        app:editLineSpacingExtra="5dp"
+        app:editPaddingBottom="10dp"
+        app:editPaddingLeft="10dp"
+        app:editPaddingRight="10dp"
+        app:editPaddingTop="10dp"
+        app:editSize="14"
+        app:textColor="#333333"
+        app:textGravity="right"
+        app:textMax="15"
+        app:textPaddingBottom="10dp"
+        app:textPaddingLeft="0dp"
+        app:textPaddingRight="0dp"
+        app:textPaddingTop="0dp"
+        app:textSize="14"
+        app:textType="percent" />
+
+</LinearLayout>
